@@ -7,20 +7,23 @@
 
 ```CI/CD Pipeline Configuration:```
 - Provide an example where you configured a CI/CD pipeline using multiple technologies. What challenges did you encounter, and how did you overcome them? What technologies did you use?
+
   All my automation test runs on jenkins , where we create paramterised, dependent, scheduled and pipeline where we integrate our code from git , maven , allure plugins on different platforms like win , mac and the slave machine are hosted on aws servers or openstack machines 
 
 ```Infrastructure as Code:```
 - Explain your experience with infrastructure as code. Can you provide an example of a project where you utilized infrastructure as code principles effectively?
- We have dockerised our project for implementation
+
+ We have dockerised our project for implementation although not getting enough chance to utilize now
 
 
 ```Version Control Systems/Repos:```
 - Describe your experience working across multiple version control systems/repos. How do you handle code conflicts and ensure version control integrity in a team setting? What version control software have you used?
-  To hadnle thsi we folloe forked repo system or sometime feature branch where we work and then merge it to develop branch of our code repo. I have used git primarly thru github or bitbucket and in my previous project I have used svn. To handle code conflict we try to cut fresh branch with latest branch and in team we make sure whenever we raise a new PR we will have latest pull with our develop branch and also we have created a checks in PR like 2 reviews are mandatory
+
+   To handle this we follow the forked repo system or sometimes feature branch where we work and then merge it to develop branch of our code repo. I have used git primarly thru github or bitbucket and in my previous project I have used svn. To handle code conflict we try to cut fresh branch with latest branch and in team we make sure whenever we raise a new PR we will have latest pull with our develop branch and also we have created a checks in PR like 2 reviews are mandatory
 
 ```Microservices and Cloud Technologies:```
 - Share an example of a project you worked on where you worked extensively with microservices and cloud-based technologies. What were the key challenges, and how did you address them?
-In my project of cars24 we have very complex microservice archtietcure and testing them was very difficult due to contract changes and other network isseus, so we implemented contract tests using pact python to handle this cases. Also integration testing was also a challanges to we utilised karate framework there to automate services fast and easily mock them and also performance test them
+In my project of cars24 we have very complex microservice architecture and testing them was very difficult due to contract changes and other network isseus, so we implemented contract tests using pact python to handle this cases. Also integration testing was also a challenge to we utilised karate framework there to automate services fast and easily mock them and also performance test them
 
 ```Performance Testing:```
 - Discuss your experience in performance testing using tools like JMeter, Artillery, K6, Gatling, etc. Can you share a performance testing success story from your past projects?
